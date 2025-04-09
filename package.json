@@ -1,0 +1,29 @@
+{
+  "name": "expense-management-system",
+  "version": "1.0.0",
+  "description": "Expense Tracking app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhant-78/Expense-Management-System.git"
+  },
+  "keywords": [],
+  "author": "Siddhant Jagtap",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Siddhant-78/Expense-Management-System/issues"
+  },
+  "homepage": "https://github.com/Siddhant-78/Expense-Management-System#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  }
+}
