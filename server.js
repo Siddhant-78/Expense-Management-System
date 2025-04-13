@@ -3,9 +3,13 @@ const cors = require('cors')
 const morgan = require('morgan')
 const dotenv = require('dotenv')
 const colors = require('colors')
+const connectDB = require('./config/connectDB');
 //config dot env file
 
 dotenv.config();
+
+//database call
+connectDB();
 
 //rest object
 const app = express();
@@ -24,5 +28,5 @@ const PORT = 8080 || process.env.PORT
 
 //listen server
 app.listen(PORT, ()=>{
-    console.log(`server is running on ${PORT}`)
+    console.log(`server is running on ${PORT}`) 
 });
